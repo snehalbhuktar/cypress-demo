@@ -11,7 +11,7 @@
 - Clone this repo and `cd` into it
   ```shell
   $ git clone https://github.com/snehalbhuktar/cypress-demo.git
-  $ cd demoqa
+  $ cd cypress-demo
   ```
 - Execute following commands to run this test suite locally
     ```shell
