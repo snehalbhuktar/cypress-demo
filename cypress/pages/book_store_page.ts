@@ -3,7 +3,7 @@ export default class BookStorePage{
     private searchInputBox = '#searchBox';
     private profileOptionLocator = 'Profile';
 
-    nvaigateToLoginPage(): void{
+    navigateToLoginPage(): void{
         cy.get(this.loginButton).click();
     }
 

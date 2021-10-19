@@ -12,7 +12,7 @@ describe('When user is on Book store login page', () => {
     });
 
     it('Then user is able to login with valid credentials and logout successfully', () => {
-        bookStorePage.nvaigateToLoginPage()
+        bookStorePage.navigateToLoginPage()
         loginPage.loginToBookStoreApplication('test_user', 'P@ssword11');
         // Assertions for successful login
         cy.get('#userName-value').should('be.visible')
@@ -25,7 +25,7 @@ describe('When user is on Book store login page', () => {
     })
 
     it('Then user is not able to login with invalid password', () => {
-        bookStorePage.nvaigateToLoginPage()
+        bookStorePage.navigateToLoginPage()
         loginPage.loginToBookStoreApplication('test_user', '123');
         // Assertions for login failed
         cy.get('#name').should('be.visible')
