@@ -9,17 +9,8 @@
     "video": false,
     "videouUploadOnPasses": false,
     "projectId": "jyz47c",
-    "reporter": "mochawesome-screenshots",
-    "screenshotsFolder": "./myReport/screenshots",
+    "reporter": "cypress-multi-reporters",
     "reporterOptions": {
-        "reportDir": "myReport",
-        "reportName": "myTestProfile",
-        "reportTitle": "myReportTitle",
-        "reportPageTitle": "myReportPageTitle",
-        "takePassedScreenshot": false,
-        "clearOldScreenshots": true,
-        "shortScrFileNames": false,
-        "jsonReport": true,
-        "multiReport": false
+        "configFile": "reporter-config.json"
     }
 }
